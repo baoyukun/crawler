@@ -35,7 +35,7 @@ An exercice of crawler for getting patent data.
 ```python
    print crawler.getPage('2013','江苏','A01G23/00')
 ```
-第二种方法*getResult()*则允许直接给出最终结果，即2007-2014年之间各省在各大行业的绿色专利数列表。
+第二种方法getResult()则允许直接给出最终结果，即2007-2014年之间各省在各大行业的绿色专利数列表。
 ```python
    crawler.getResult()
 ```
