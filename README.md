@@ -27,7 +27,7 @@ An exercice of crawler for getting patent data.
    print crawler.getPage('2013','江苏','A01G23/00+or+A01G25/00+or+A01N25/00+or+A01N27/00+or+A01N29/00+or+A01N31/00')
 ```
 上面的命令将给出江苏省2013年以上各类大项的绿色专利总和。  
-**注意： **
+**注意\:**
 - 各项之间用*“+or+”*连接作为参数传递给程序
 - 各大行业的or组合已由程序生成，见程序文件夹中的*orKeywords.txt*文件，可直接复制用于在网站上进行手动验证
   
